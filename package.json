@@ -1,0 +1,26 @@
+{
+  "name": "express-tdd-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "config": "^1.26.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3",
+    "mockgoose": "^7.3.3"
+  }
+}
